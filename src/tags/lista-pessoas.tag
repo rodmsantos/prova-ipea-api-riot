@@ -1,4 +1,5 @@
 <lista-pessoas>
+
     <h2>Lista de Cadastrados</h2>
     <ul if={estado.pessoas && estado.seExibeLista}>
         <li each={ estado.pessoas }>{firstName} {lastName}</li>

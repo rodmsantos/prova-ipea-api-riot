@@ -10,6 +10,8 @@
 
     <button class="botao" onclick={handleBuscaPessoasAPI}>Chamar pessoa da API</button>
 
+    <br>
+
     <lista-pessoas />
 
     <script>
